@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header">
+            <div class="container">
+                <div class="header-left">
+                    <img class="logo" src="D:\ELIZA\KULIAH\SEMESTER 5\PPK II\KELOMPOK\logo.jpg">
+                    <div class="header-list">
+                        <ul>
+                            <li>HOME</li>
+                            <li>MENU</li>
+                            <li>LOCATION</li>
+                            <li>RESERVATION</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="top-wrapper">
+        <div class="container">
+            <h1>WELCOME</h1>
+            <h1>TO PINKA CAFE</h1>
+            <p>Selamat datang di Pinka Cafe!</p>
+            <p>Tempat yang tepat untuk Anda bersantai dan menikmati secangkir kopi atau teh yang lezat</p>
+            <div class="btn-wrapper">
+                <img class="btn signup" src="https://i.pinimg.com/736x/50/50/b1/5050b105d88f9ab58c9b5f18a0959adc.jpg">
+                <h2>atau</h2> <img class="btn signup"
+                    src="https://i.pinimg.com/236x/7d/36/9f/7d369fb78ad668867000c0d987a1b70d.jpg">
+            </div>
+        </div>
+        <div class="gaya-tulisan">
+            <div class="container" id="about">
+                <div class="gaya-content" style="max-width: 700px">
+                    <h3><i></i>PINKA CAFE'S ABOUT</i></h3>
+                    <h4>Mulai dirilis pada tanggal 12 September 2023 di Kota Malang yang identik dengan lokasinya
+                        dekat dengan sungai. Yang mana ketika sore hari akan nampak indahnya senja.</h4>
+                    <div class="gaya-panel gaya-leftbar gaya-light-blue">
+                        <p><i>"Senja ter-indah hanya ada di PINKA" ~math's people.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <!-- Tambahkan konten formulir kontak Anda di sini -->
+        </div>
+        
+        <div class="gaya-container" id="menu">
+            <div class="gaya-content" style="max-width:700px">
+                <br>
+                <h11 class="gaya-center gaya-padding-48"><span class="gaya-tag gaya-wide">Menu Cafe PINKA</span></h11>
+
+                <div class="gaya-row gaya-center gaya-card gaya-padding">
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Makanan');" id="myLink">
+                        <div class="gaya-col s6 tablink">Makanan</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Minuman');">
+                        <div class="gaya-col s6 tablink">Minuman</div>
+                    </a>
+                </div>
+
+                <div id="Makanan" class="gaya-container menu gaya-padding-48 gaya-card">
+                    <h5>Roti Canai</h5>
+                    <p class="gaya-text-grey">roti gepeng dengan rasa cenderung asin dan lembut saat digigit</p>
+                    <q class="gaya-text-blue">Rp. 12.000</q><br>
+
+                    <h5>Pancake Stroberi</h5>
+                    <p class="gaya-text-grey">pancake dengan tuangan saus coklat dan buah stroberi diatasnya</p>
+                    <q class="gaya-text-blue">Rp. 15.000</q><br>
+
+                    <h5>Cireng Bumbu Rujak</h5>
+                    <p class="gaya-text-grey">bertekstur kenyal dan rasa gurih dengan cocolan bumbu pedas manis</p>
+                    <q class="gaya-text-blue">Rp. 13.000</q><br>
+
+                    <h5>Nasi Gila</h5>
+                    <p class="gaya-text-grey">perpaduan sosis, telur, cabai merah dan bumbu ala PINKA</p>
+                    <q class="gaya-text-blue">Rp. 23.000</q><br>
+
+                    <h5>Mie Petir</h5>
+                    <p class="gaya-text-grey">dengan topping ayam cincang dan kornet</p>
+                    <q class="gaya-text-blue">Rp. 17.000</q><br>
+                </div>
+                <div id="Minuman" class="gaya-container menu gaya-padding-48 gaya-card">
+                    <h5>Coffee Based</h5>
+                    <p class="gaya-text-grey">Ekspresso</p>
+                    <q class="gaya-text-blue">Rp. 7.000</q>
+                    <p class="gaya-text-grey">Americano</p>
+                    <q class="gaya-text-blue">Rp. 10.000</q>
+                    <br>
+
+                    <h5>Milk Based</h5>
+                    <p class="gaya-text-grey">Chocolate/Tiramisu/Red Velvet/Matcha/Taro</p>
+                    <q class="gaya-text-blue">Rp. 18.000</q>
+                    <br>
+
+                    <h5>Tea</h5>
+                    <p class="gaya-text-grey">Original Tea</p>
+                    <q class="gaya-text-blue">Rp. 9.000</q>
+                    <p class="gaya-text-grey">Lemon Tea/Lychee Tea/Choco Tea</p>
+                    <q class="gaya-text-blue">Rp. 13.000</q>
+                    <br>
+
+                    <h5>Soda</h5>
+                    <p class="gaya-text-grey">Cola/Sprite/Fanta/</p>
+                    <q class="gaya-text-blue">Rp. 20.000</q>
+                </div>
+                <div class="container">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p>Pinggir Kali Cafe's Blog</p>
+</footer>
+
+</html>
